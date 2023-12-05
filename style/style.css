@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo__img{
+    margin: 50px 600px 79px 500px;
+    width: 120px;
+    height: 151px;
+    background: url(header-logo.png);
+}
+
+.nav__list{
+    display: flex; 
+    list-style:none;            
+    width: 811px;
+    height: 29px;
+    margin: 0  auto ;  
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+.nav__link{
+    color: #8C8A8A;
+    text-decoration:none; 
+}
+
+.container__block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 730px;
+    height: 500px;
+    background: #F0F0F0;
+    margin: 0 218px;
+} 
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.section__1{
+    width: 730px;
+    height: 500px;
+    left: 405px;
+    top: 819px;
+    background:#F0F0F0;
+}
+.section__2{
+    width: 350px;
+    height: 500px;
+    left: 1165px;
+    top: 819px;
+    background:#F0F0F0;
+}
+.section__title{
+    width: 700px;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin: 50px 40px;
+    color:#4581B7;
+}
+.section__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 40px;
+    text-align: justify;
+    color: #808080;
+}
+.section__p{
+    display: flex;
+    margin: 30px 40px;
+    text-decoration: none;    
+    color: #808080;
+}
+.section__p1{
+    display: flex;
+    text-decoration: none;  
+    text-align: start;
+    margin: 50px 40px;
+    color: #808080;
+}
+.footer{
+    display: flex;
+    width: 1110px;
+    height: 150px;
+    justify-content: space-between;
+    background: #F0F0F0;
+    margin: 20px 0;
+}
+.footer__img{
+    width: 254px;
+    height: 120px;
+    margin: 20px 40px;
+}
+.footer__1{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    text-decoration: none;
+    margin: 46px 40px 10px 40px;    
+}
+.footer__2{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+    font-size: 25px;
+    margin: 0  80px; 
+}
+
